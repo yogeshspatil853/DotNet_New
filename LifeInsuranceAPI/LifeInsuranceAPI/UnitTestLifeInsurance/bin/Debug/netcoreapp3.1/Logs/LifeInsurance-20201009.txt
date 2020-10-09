@@ -1,0 +1,44 @@
+2020-10-09T17:13:00.2066016+05:30 0HM3C91SL7FJ9 [INF] Request starting HTTP/1.1 GET http://localhost/api/Contract/GetAll?search=dev&sortCol=Id&sortDir=desc&skip=0&take=10   (ca22a1cb)
+2020-10-09T17:13:00.2213614+05:30 0HM3C91SL7FJ9 [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2020-10-09T17:13:00.2639432+05:30 0HM3C91SL7FJ9 [INF] Executing endpoint '"LifeInsuranceAPI.Controllers.ContractController.GetAll (LifeInsuranceAPI)"' (500cc934)
+2020-10-09T17:13:00.3020763+05:30 0HM3C91SL7FJ9 [INF] Route matched with "{action = \"GetAll\", controller = \"Contract\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[LifeInsurance.Entities.Contracts]] GetAll(System.String, System.String, System.String, System.Nullable`1[System.Int32], System.Nullable`1[System.Int32])" on controller "LifeInsuranceAPI.Controllers.ContractController" ("LifeInsuranceAPI"). (122b2fdf)
+2020-10-09T17:13:00.3898320+05:30 0HM3C91SL7FJ9 [FTL] {Date}09-Oct-20 5:13:00 PM (cb5f3107)
+2020-10-09T17:13:00.8361676+05:30 0HM3C91SL7FJ9 [WRN] No type was specified for the decimal column '"NetPrice"' on entity type '"Contracts"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2020-10-09T17:13:00.8362769+05:30 0HM3C91SL7FJ9 [WRN] No type was specified for the decimal column '"NetPrice"' on entity type '"RateChart"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2020-10-09T17:13:00.8710110+05:30 0HM3C91SL7FJ9 [INF] Entity Framework Core "3.1.8" initialized '"LifeInsuranceDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-10-09T17:13:03.1427028+05:30 0HM3C91SL7FJ9 [INF] Executed DbCommand ("380"ms) [Parameters=["@__search_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[AddedDate], [c].[CoveragePlan], [c].[CustomerAddress], [c].[CustomerCountry], [c].[CustomerGender], [c].[CustomerName], [c].[DateofBirth], [c].[IsDeleted], [c].[ModifiedDate], [c].[NetPrice], [c].[SaleDate]
+FROM [Contracts] AS [c]
+WHERE (CASE
+    WHEN (@__search_0 = N'') OR (CHARINDEX(@__search_0, [c].[CustomerName]) > 0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END & CASE
+    WHEN [c].[IsDeleted] <> CAST(1 AS bit) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END) = CAST(1 AS bit)" (0723d8ff)
+2020-10-09T17:13:03.1745056+05:30 0HM3C91SL7FJ9 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[LifeInsurance.Entities.Contracts, LifeInsurance.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-10-09T17:13:03.2108347+05:30 0HM3C91SL7FJ9 [INF] Executed action "LifeInsuranceAPI.Controllers.ContractController.GetAll (LifeInsuranceAPI)" in 2902.6294ms (afa2e885)
+2020-10-09T17:13:03.2130900+05:30 0HM3C91SL7FJ9 [INF] Executed endpoint '"LifeInsuranceAPI.Controllers.ContractController.GetAll (LifeInsuranceAPI)"' (99874f2b)
+2020-10-09T17:13:03.2222526+05:30 0HM3C91SL7FJ9 [INF] Request finished in 3021.5762ms 200 application/json; charset=utf-8 (791a596a)
+2020-10-09T17:13:34.7800388+05:30 0HM3C926UU1GG [INF] Request starting HTTP/1.1 GET http://localhost/api/Contract/GetAll?search=dev&sortCol=Id&sortDir=desc&skip=0&take=10   (ca22a1cb)
+2020-10-09T17:13:34.7937761+05:30 0HM3C926UU1GG [WRN] Failed to determine the https port for redirect. (ca76cc21)
+2020-10-09T17:13:34.8368382+05:30 0HM3C926UU1GG [INF] Executing endpoint '"LifeInsuranceAPI.Controllers.ContractController.GetAll (LifeInsuranceAPI)"' (500cc934)
+2020-10-09T17:13:34.8752076+05:30 0HM3C926UU1GG [INF] Route matched with "{action = \"GetAll\", controller = \"Contract\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[LifeInsurance.Entities.Contracts]] GetAll(System.String, System.String, System.String, System.Nullable`1[System.Int32], System.Nullable`1[System.Int32])" on controller "LifeInsuranceAPI.Controllers.ContractController" ("LifeInsuranceAPI"). (122b2fdf)
+2020-10-09T17:13:34.9657161+05:30 0HM3C926UU1GG [FTL] {Date}09-Oct-20 5:13:34 PM (6137ee1b)
+2020-10-09T17:13:35.4090721+05:30 0HM3C926UU1GG [WRN] No type was specified for the decimal column '"NetPrice"' on entity type '"Contracts"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2020-10-09T17:13:35.4091720+05:30 0HM3C926UU1GG [WRN] No type was specified for the decimal column '"NetPrice"' on entity type '"RateChart"'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values using 'HasColumnType()'. (3a0db05f)
+2020-10-09T17:13:35.4453350+05:30 0HM3C926UU1GG [INF] Entity Framework Core "3.1.8" initialized '"LifeInsuranceDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2020-10-09T17:13:37.8101567+05:30 0HM3C926UU1GG [INF] Executed DbCommand ("396"ms) [Parameters=["@__search_0='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[AddedDate], [c].[CoveragePlan], [c].[CustomerAddress], [c].[CustomerCountry], [c].[CustomerGender], [c].[CustomerName], [c].[DateofBirth], [c].[IsDeleted], [c].[ModifiedDate], [c].[NetPrice], [c].[SaleDate]
+FROM [Contracts] AS [c]
+WHERE (CASE
+    WHEN (@__search_0 = N'') OR (CHARINDEX(@__search_0, [c].[CustomerName]) > 0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END & CASE
+    WHEN [c].[IsDeleted] <> CAST(1 AS bit) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END) = CAST(1 AS bit)" (0723d8ff)
+2020-10-09T17:13:37.8412561+05:30 0HM3C926UU1GG [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[LifeInsurance.Entities.Contracts, LifeInsurance.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2020-10-09T17:13:37.8772522+05:30 0HM3C926UU1GG [INF] Executed action "LifeInsuranceAPI.Controllers.ContractController.GetAll (LifeInsuranceAPI)" in 2996.0189ms (afa2e885)
+2020-10-09T17:13:37.8796565+05:30 0HM3C926UU1GG [INF] Executed endpoint '"LifeInsuranceAPI.Controllers.ContractController.GetAll (LifeInsuranceAPI)"' (99874f2b)
+2020-10-09T17:13:37.8892708+05:30 0HM3C926UU1GG [INF] Request finished in 3115.8533ms 200 application/json; charset=utf-8 (791a596a)

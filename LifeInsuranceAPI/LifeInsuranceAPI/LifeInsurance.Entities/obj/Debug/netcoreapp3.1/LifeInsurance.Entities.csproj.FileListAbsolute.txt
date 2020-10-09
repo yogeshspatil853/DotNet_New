@@ -1,0 +1,13 @@
+D:\Projects\LifeInsuranceAPI\LifeInsurance.Entities\bin\Debug\netcoreapp3.1\LifeInsurance.Entities.exe
+D:\Projects\LifeInsuranceAPI\LifeInsurance.Entities\bin\Debug\netcoreapp3.1\LifeInsurance.Entities.deps.json
+D:\Projects\LifeInsuranceAPI\LifeInsurance.Entities\bin\Debug\netcoreapp3.1\LifeInsurance.Entities.runtimeconfig.json
+D:\Projects\LifeInsuranceAPI\LifeInsurance.Entities\bin\Debug\netcoreapp3.1\LifeInsurance.Entities.runtimeconfig.dev.json
+D:\Projects\LifeInsuranceAPI\LifeInsurance.Entities\bin\Debug\netcoreapp3.1\LifeInsurance.Entities.dll
+D:\Projects\LifeInsuranceAPI\LifeInsurance.Entities\bin\Debug\netcoreapp3.1\LifeInsurance.Entities.pdb
+D:\Projects\LifeInsuranceAPI\LifeInsurance.Entities\obj\Debug\netcoreapp3.1\LifeInsurance.Entities.AssemblyInfoInputs.cache
+D:\Projects\LifeInsuranceAPI\LifeInsurance.Entities\obj\Debug\netcoreapp3.1\LifeInsurance.Entities.AssemblyInfo.cs
+D:\Projects\LifeInsuranceAPI\LifeInsurance.Entities\obj\Debug\netcoreapp3.1\LifeInsurance.Entities.csproj.CoreCompileInputs.cache
+D:\Projects\LifeInsuranceAPI\LifeInsurance.Entities\obj\Debug\netcoreapp3.1\LifeInsurance.Entities.dll
+D:\Projects\LifeInsuranceAPI\LifeInsurance.Entities\obj\Debug\netcoreapp3.1\LifeInsurance.Entities.pdb
+D:\Projects\LifeInsuranceAPI\LifeInsurance.Entities\obj\Debug\netcoreapp3.1\LifeInsurance.Entities.genruntimeconfig.cache
+D:\Projects\LifeInsuranceAPI\LifeInsurance.Entities\obj\Debug\netcoreapp3.1\LifeInsurance.Entities.csprojAssemblyReference.cache

@@ -1,0 +1,10 @@
+D:\Projects\LifeInsuranceAPI\.vs\LifeInsuranceAPI\v16\lut\0\b\LifeInsurance.Entities\Debug\netcoreapp3.1\LifeInsurance.Entities.exe
+D:\Projects\LifeInsuranceAPI\.vs\LifeInsuranceAPI\v16\lut\0\b\LifeInsurance.Entities\Debug\netcoreapp3.1\LifeInsurance.Entities.deps.json
+D:\Projects\LifeInsuranceAPI\.vs\LifeInsuranceAPI\v16\lut\0\b\LifeInsurance.Entities\Debug\netcoreapp3.1\LifeInsurance.Entities.runtimeconfig.json
+D:\Projects\LifeInsuranceAPI\.vs\LifeInsuranceAPI\v16\lut\0\b\LifeInsurance.Entities\Debug\netcoreapp3.1\LifeInsurance.Entities.runtimeconfig.dev.json
+D:\Projects\LifeInsuranceAPI\.vs\LifeInsuranceAPI\v16\lut\0\b\LifeInsurance.Entities\Debug\netcoreapp3.1\LifeInsurance.Entities.dll
+D:\Projects\LifeInsuranceAPI\.vs\LifeInsuranceAPI\v16\lut\0\i\LifeInsurance.Entities\Debug\netcoreapp3.1\LifeInsurance.Entities.AssemblyInfoInputs.cache
+D:\Projects\LifeInsuranceAPI\.vs\LifeInsuranceAPI\v16\lut\0\i\LifeInsurance.Entities\Debug\netcoreapp3.1\LifeInsurance.Entities.AssemblyInfo.cs
+D:\Projects\LifeInsuranceAPI\.vs\LifeInsuranceAPI\v16\lut\0\i\LifeInsurance.Entities\Debug\netcoreapp3.1\LifeInsurance.Entities.csproj.CopyComplete
+D:\Projects\LifeInsuranceAPI\.vs\LifeInsuranceAPI\v16\lut\0\i\LifeInsurance.Entities\Debug\netcoreapp3.1\LifeInsurance.Entities.dll
+D:\Projects\LifeInsuranceAPI\.vs\LifeInsuranceAPI\v16\lut\0\i\LifeInsurance.Entities\Debug\netcoreapp3.1\LifeInsurance.Entities.genruntimeconfig.cache
